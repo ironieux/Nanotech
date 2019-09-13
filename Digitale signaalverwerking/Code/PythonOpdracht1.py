@@ -11,8 +11,8 @@ import numpy as np
 
 #opdracht A constanten
 a = 1/2
-num = [1, 1]
-den = [1, 0]
+num = [0, 1]
+den = [1, -a]
 len_ = 10
 dt = 1
 
@@ -46,3 +46,5 @@ plt.grid()
 plt.xlabel('Omega in pi rad' )
 plt.ylabel('Fase H(omega)')
 plt.title('Transfer Fase')
+
+plt.tight_layout()
