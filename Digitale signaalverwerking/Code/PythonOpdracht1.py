@@ -10,9 +10,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 #opdracht A constanten
-a = 1/2
-num = [0, 1]
-den = [1, -a]
+num = [1, 1]
+den = [1, 0]
 len_ = 10
 dt = 1
 
